@@ -1,0 +1,35 @@
+html,
+body {
+	height: 100%;
+}
+body{
+	font-family:'Open Sans', sans-serif;
+	font-size: 16px;
+	line-height: 27px;
+	font-weight: 400;
+	color: $default;
+}
+
+.wrapper {                 /*код*/
+	display: flex;         /*для*/
+	flex-direction: column;/*того*/
+	min-height: 100%;      /*что бы*/
+}                          /*прижать*/
+
+.main {                    /*footer*/
+	flex: 1 0 auto;        /*к низу*/
+}                          /*страницы*/
+.footer {                  /**/
+	flex: 0 0 auto;        /**/
+}
+
+.container{
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+
+
+
+
